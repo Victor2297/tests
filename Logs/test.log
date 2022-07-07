@@ -1,0 +1,4 @@
+DEBUG:root:the page was opened
+DEBUG:root:the username filed was filled
+DEBUG:root:the password field was filled
+DEBUG:root:Test passed
