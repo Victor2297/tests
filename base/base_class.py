@@ -1,4 +1,3 @@
-from selenium.common import NoAlertPresentException
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as ec
 from selenium.webdriver.support.wait import WebDriverWait
@@ -27,5 +26,5 @@ class BaseClass:
         try:
             self.driver.switch_to.alert
             return True
-        except NoAlertPresentException:
+        except:
             return False
