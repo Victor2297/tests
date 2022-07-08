@@ -1,2 +1,2 @@
-python -m pytest -q -s --browser=chrome tests\test_TC_login.py
+pytest -q -s --browser=chrome tests\test_TC_login.py
 pause
