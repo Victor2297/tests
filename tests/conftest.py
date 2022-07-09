@@ -3,6 +3,7 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service as Service_ch
 from selenium.webdriver.firefox.service import Service as Service_ff
 from webdriver_manager.chrome import ChromeDriverManager
+from webdriver_manager.firefox import GeckoDriverManager
 from selenium import webdriver
 
 
@@ -61,7 +62,7 @@ def setup(get_browser):
         driver = webdriver.Chrome(service = service, options = options)
         return driver
     if get_browser == 'firefox':
-        service = Service_ff(executable_path='')
+        service = Service_ff(executable_path=GeckoDriverManager().install())
         driver = webdriver.Firefox(service = service)
         return driver
     return get_browser

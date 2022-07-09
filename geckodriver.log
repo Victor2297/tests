@@ -25,3 +25,22 @@ console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkErr
 
 ###!!! [Child][PContentChild] Error: Send(msgname=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
 
+1657349516041	geckodriver	INFO	Listening on 127.0.0.1:60300
+1657349519183	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60301" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Victor\\AppData\\Local\\Temp\\rust_mozprofile2FR6fB"
+1657349523537	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Victor\\AppData\\Local\\Temp\\rust_mozprofile2FR6fB\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60301/devtools/browser/f65f4227-87c2-4f07-8163-1f752a4873fd
+1657349546822	Marionette	INFO	Listening on port 60374
+Read port: 60374
+1657349548007	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://demo.guru99.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://demo.guru99.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: , line 0: uncaught exception: undefined
+1657349558166	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/yleD_imbJ2YLIerZJCJUa4yQOSRhPvCXXlQ8m3xKa_Q.js line 2 > eval line 2846 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1657349653545	Marionette	INFO	Stopped listening on port 60374
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Child][PContentChild] Error: Send(msgname=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
