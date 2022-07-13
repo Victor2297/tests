@@ -1,3 +1,9 @@
+INFO:WDM:
+
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Current google-chrome version is 103.0.5060
+INFO:WDM:Get LATEST chromedriver version for 103.0.5060 google-chrome
+INFO:WDM:Driver [C:\Users\Victor\.wdm\drivers\chromedriver\win32\103.0.5060.53\chromedriver.exe] found in cache
 DEBUG:root:the page was opened
 DEBUG:root:the username filed was filled
 DEBUG:root:the password field was filled
